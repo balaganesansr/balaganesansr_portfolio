@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
 
 export function GET() {
-  return NextResponse.json({ apps: ["haris"] });
+  return NextResponse.json({ apps: [] });
 }
